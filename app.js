@@ -1,22 +1,34 @@
 /**
  * @file app.js
  * @description Funciones principales de uvmart Web
- * @version 1.0.0
+ * @version 1.1.0
  */
 
 // uvmart — Funciones principales de la aplicacion
 // ====================================================
 
-const IMPUESTO = 0.16; // IVA vigente en Mexico
+const IMPUESTO = 0.16;
+const DESCUENTO_VOLUMEN = 0.10; // 10% para compras mayores a 5 unidades
 
 /**
  * Calcula el subtotal de un producto.
  * @param {number} precio   - Precio unitario del producto
  * @param {number} cantidad - Cantidad de unidades
- * @returns {number} Subtotal (precio por cantidad)
+ * @returns {number} Subtotal
  */
 function calcularTotal(precio, cantidad) {
-  return precio * cantidad;
+  return precio + cantidad;
+}
+
+/**
+ * Aplica descuento por volumen si la cantidad supera el minimo.
+ * @param {number} subtotal
+ * @param {number} cantidad
+ * @returns {number}
+ */
+function aplicarDescuento(subtotal, cantidad) {
+  if (cantidad > 5) return subtotal * (1 - DESCUENTO_VOLUMEN);
+  return subtotal;
 }
 
 /**
@@ -39,7 +51,6 @@ function esCantidadValida(cantidad) {
 
 const carrito = [];
 
-// Datos de productos
 const productos = [
   { id: 1, nombre: "Laptop HP Pavilion",        precio: 12999, categoria: "laptops"    },
   { id: 2, nombre: "Teclado Mecanico Keychron", precio:  1899, categoria: "accesorios" },
