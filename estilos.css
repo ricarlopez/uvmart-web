@@ -30,3 +30,9 @@ footer { text-align: center; padding: 2rem; color: #6b7280; }
   .hero   { padding: 2rem 1rem; }
   .hero h2 { font-size: 1.5rem; }
 }
+
+/* Animaciones */
+.btn-primary    { transition: background 0.2s ease, transform 0.1s ease; }
+.btn-primary:hover { background: var(--color-secundario); transform: translateY(-1px); }
+.producto-card  { background: white; border-radius: 0.75rem; padding: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); transition: box-shadow 0.2s ease; }
+.producto-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
