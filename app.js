@@ -98,3 +98,14 @@ const t =termino.toLowerCase();
   if(t.length < 3) return [];
   return productos.filter(p => p.nombre.toLowerCase().includes(t));
 }
+
+function inicializarBuscador(){
+  const input = document.getElementById
+  if(input){
+    input.addEventListener("input", (e) => {
+      const termino = e.target.value;
+      const resultados = buscadorProductos(termino);
+      mostrarResultados(resultados);
+    });
+  }
+}
