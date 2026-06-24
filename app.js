@@ -72,3 +72,12 @@ function ordenarProductos(lista, criterio) {
     return 0;
   });
 }
+
+/**
+ * Formatea un numero como precio en MXN.
+ * @param {number} monto
+ * @returns {string} Ej: "$12,999.00"
+ */
+function formatearPrecio(monto) {
+  return new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN" }).format(monto);
+}
