@@ -36,3 +36,10 @@ footer { text-align: center; padding: 2rem; color: #6b7280; }
 .btn-primary:hover { background: var(--color-secundario); transform: translateY(-1px); }
 .producto-card  { background: white; border-radius: 0.75rem; padding: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); transition: box-shadow 0.2s ease; }
 .producto-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+
+/* Modo oscuro */
+@media (prefers-color-scheme: dark) {
+  :root { --color-texto: #f9fafb; --color-fondo: #111827; }
+  .producto-card { background: #1f2937; color: #f9fafb; }
+  .header { background: #1e3a8a; }
+}
