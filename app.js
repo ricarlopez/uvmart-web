@@ -92,3 +92,9 @@ const CANTIDAD_MAXIMA = 99;
 function esCantidadPermitida(cantidad) {
   return esCantidadValida(cantidad) && cantidad <= CANTIDAD_MAXIMA;
 }
+
+function buscadorProductos(termino){
+const t =termino.toLowerCase();
+  if(t.length < 3) return [];
+  return productos.filter(p => p.nombre.toLowerCase().includes(t));
+}
