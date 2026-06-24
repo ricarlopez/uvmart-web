@@ -1,3 +1,9 @@
+/**
+ * @file app.js
+ * @description Funciones principales de uvmart Web
+ * @version 1.0.0
+ */
+
 // uvmart — Funciones principales de la aplicacion
 // ====================================================
 
@@ -33,13 +39,13 @@ function esCantidadValida(cantidad) {
 
 const carrito = [];
 
-// Datos de productos (provisional - se cargaran desde API en v2)
+// Datos de productos
 const productos = [
-  { id: 1, nombre: "Laptop HP Pavilion",        precio: 12999, categoria: "laptops"     },
-  { id: 2, nombre: "Teclado Mecanico Keychron", precio:  1899, categoria: "accesorios"  },
-  { id: 3, nombre: "Monitor LG 27 pulgadas",    precio:  5499, categoria: "monitores"   },
-  { id: 4, nombre: "Mouse Logitech MX Master",  precio:  1299, categoria: "accesorios"  },
-  { id: 5, nombre: "Laptop Dell XPS 13",         precio: 24999, categoria: "laptops"     },
+  { id: 1, nombre: "Laptop HP Pavilion",        precio: 12999, categoria: "laptops"    },
+  { id: 2, nombre: "Teclado Mecanico Keychron", precio:  1899, categoria: "accesorios" },
+  { id: 3, nombre: "Monitor LG 27 pulgadas",    precio:  5499, categoria: "monitores"  },
+  { id: 4, nombre: "Mouse Logitech MX Master",  precio:  1299, categoria: "accesorios" },
+  { id: 5, nombre: "Laptop Dell XPS 13",         precio: 24999, categoria: "laptops"    },
 ];
 
 function filtrarPorCategoria(categoria) {
