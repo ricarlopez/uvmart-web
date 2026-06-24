@@ -1,0 +1,6 @@
+C:\TMP\Git dia 4\uvmart-web\UvMart.Api.Tests\obj\Debug\net9.0\UvMart.Api.Tests.csproj.AssemblyReference.cache
+C:\TMP\Git dia 4\uvmart-web\UvMart.Api.Tests\obj\Debug\net9.0\UvMart.Api.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\TMP\Git dia 4\uvmart-web\UvMart.Api.Tests\obj\Debug\net9.0\UvMart.Api.Tests.AssemblyInfoInputs.cache
+C:\TMP\Git dia 4\uvmart-web\UvMart.Api.Tests\obj\Debug\net9.0\UvMart.Api.Tests.AssemblyInfo.cs
+C:\TMP\Git dia 4\uvmart-web\UvMart.Api.Tests\obj\Debug\net9.0\UvMart.Api.Tests.csproj.CoreCompileInputs.cache
+C:\TMP\Git dia 4\uvmart-web\UvMart.Api.Tests\obj\Debug\net9.0\UvMart.Api.Tests.sourcelink.json

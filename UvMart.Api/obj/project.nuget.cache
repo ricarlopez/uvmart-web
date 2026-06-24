@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7WdOtChrn5I=",
+  "success": true,
+  "projectFilePath": "C:\\TMP\\Git dia 4\\uvmart-web\\UvMart.Api\\UvMart.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\UV\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.6\\microsoft.aspnetcore.openapi.9.0.6.nupkg.sha512",
+    "C:\\Users\\UV\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
