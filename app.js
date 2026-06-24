@@ -81,3 +81,14 @@ function ordenarProductos(lista, criterio) {
 function formatearPrecio(monto) {
   return new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN" }).format(monto);
 }
+
+const CANTIDAD_MAXIMA = 99;
+
+/**
+ * Valida cantidad dentro del rango permitido (1–99).
+ * @param {number} cantidad
+ * @returns {boolean}
+ */
+function esCantidadPermitida(cantidad) {
+  return esCantidadValida(cantidad) && cantidad <= CANTIDAD_MAXIMA;
+}
