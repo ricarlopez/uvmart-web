@@ -109,3 +109,7 @@ function inicializarBuscador(){
     });
   }
 }
+
+function mensajes(){
+  console.log('Hola chat');
+}
