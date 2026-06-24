@@ -30,3 +30,4 @@ C:\TMP\Git dia 4\uvmart-web\UvMart.Api\obj\Debug\net9.0\refint\UvMart.Api.dll
 C:\TMP\Git dia 4\uvmart-web\UvMart.Api\obj\Debug\net9.0\UvMart.Api.pdb
 C:\TMP\Git dia 4\uvmart-web\UvMart.Api\obj\Debug\net9.0\UvMart.Api.genruntimeconfig.cache
 C:\TMP\Git dia 4\uvmart-web\UvMart.Api\obj\Debug\net9.0\ref\UvMart.Api.dll
+C:\TMP\Git dia 4\uvmart-web\UvMart.Api\obj\Debug\net9.0\UvMart.Api.sourcelink.json
