@@ -63,3 +63,12 @@ function filtrarPorCategoria(categoria) {
   if (categoria === "todos") return productos;
   return productos.filter(p => p.categoria === categoria);
 }
+
+function ordenarProductos(lista, criterio) {
+  return [...lista].sort((a, b) => {
+    if (criterio === "nombre")       return a.nombre.localeCompare(b.nombre);
+    if (criterio === "precio-asc")   return a.precio - b.precio;
+    if (criterio === "precio-desc")  return b.precio - a.precio;
+    return 0;
+  });
+}
